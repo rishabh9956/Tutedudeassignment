@@ -1,0 +1,16 @@
+file1 = open("sample.txt","w")
+user_input = input("Enter the text you want to add to the file: ")
+file1.write(user_input + "\n")
+print("Data successfully Added to sample.txt")
+file1.close()
+
+file1 = open("sample.txt","a")
+user_input2 = input("Enter Additional text to Append: ")
+file1.write(user_input2 + "\n")
+file1.close()   
+print("data successfully Appended")
+
+file1 = open("sample.txt","r")
+print("Final Content of sample.txt: ")
+print(file1.read())
+file1.close()
