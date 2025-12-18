@@ -1,0 +1,3 @@
+Task 1 (Dictionary Program): This Python program stores student names and marks in a dictionary, accepts user input, and displays the corresponding marks or an error message if the student is not found.
+
+Task 2 (List Slicing Program): This Python program creates a list from 1 to 10, extracts the first five elements, reverses them, and prints both the extracted and reversed lists.
